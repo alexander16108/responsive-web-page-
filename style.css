@@ -1,0 +1,127 @@
+      
+   
+   .first_nav {
+      display: flex;
+      background-color: black;
+    
+   }
+   .first_nav .loact{
+       float: right;
+   }
+   .locat1{
+       display: flex;
+       text-decoration: none;
+      
+   }
+   .locat1 li{
+       top: 0%;
+       left: 0%;
+      
+   }
+   .locat1 li a{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+   }
+   .locat1 li a:hover{
+    color: rgb(133, 130, 130);
+   }
+   .loact{
+       float: right;
+
+   }
+   li{
+    list-style-type: none;
+   }
+   .loact {
+       display: flex;
+       float: right;
+   }
+   .loact li{
+       top: 0%;
+       right: 0%;
+       
+   }
+   .tables{
+       width: 80%;
+       align-content: center;
+   }
+      #col1 img{
+          background-color: linear-gradient(to bottom right, red,purple,blue, black )
+      }
+      /*body*/
+     .first_born{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-sizing: border-box;
+    
+    grid-gap: 5px;
+     }
+     .grandchild a img{
+         width: 150;
+         height: 100;
+     }
+     #name{
+  display: flex;
+    }
+    #name p{
+        padding: 7px;
+    }
+    .index{
+        display: flex;
+     justify-content: space-between;
+     width: 90%;
+    }
+    .index p{
+        padding-top: 15px;
+    }
+     .second_grandchild{
+         background-color: rgb(252, 252, 252);
+         width: 90%;
+     }
+        .second_grandchild hr{
+         color: hotpink;
+           }
+      /*body section with articles*/
+      .manycam{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-gap: 20px;
+         
+          box-sizing: border-box;
+
+      }
+      .n{
+          box-sizing: border-box;
+          width: 50%;
+      }
+      .t{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+      .t img{
+          width: 120px;
+          height: 100px;
+      }
+      /*body the final part*/
+      .lastly{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        box-sizing: border-box;
+        
+        grid-gap: 5px;
+         }
+         .umbo a img{
+            width: 150;
+            height: 100;
+        }
+
+       /*footer*/
+     .dim{
+         width: 78%;
+         box-sizing: border-box;
+     }
+     
+  .alec{
+      background-color: black;
+      color: white;
+  }
